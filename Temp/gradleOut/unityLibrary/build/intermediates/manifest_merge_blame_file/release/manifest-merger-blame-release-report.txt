@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
+11
+12    <uses-feature
+12-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:3-111
+13        android:name="android.hardware.vr.headtracking"
+13-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:17-64
+14        android:required="true"
+14-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:85-108
+15        android:version="1" />
+15-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:65-84
+16    <uses-feature android:glEsVersion="0x00030000" />
+16-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:3-52
+16-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:17-49
+17
+18    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+18-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:25:3-77
+18-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:25:24-74
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:26:3-65
+20-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:26:20-62
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:27:3-69
+21-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:27:20-66
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:28:3-78
+22-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:28:20-75
+23
+24    <uses-feature
+24-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:29:3-87
+25        android:name="android.hardware.microphone"
+25-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:29:17-59
+26        android:required="false" />
+26-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:29:60-84
+27    <uses-feature
+27-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:30:3-88
+28        android:name="android.hardware.touchscreen"
+28-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:30:17-60
+29        android:required="false" />
+29-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:30:61-85
+30    <uses-feature
+30-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:31:3-99
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:31:17-71
+32        android:required="false" />
+32-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:31:72-96
+33    <uses-feature
+33-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:32:3-108
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:32:17-80
+35        android:required="false" />
+35-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:32:81-105
+36
+37    <application
+37-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:3-22:17
+38        android:allowBackup="false"
+38-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:81-108
+39        android:icon="@mipmap/app_icon"
+39-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:49-80
+40        android:label="@string/app_name"
+40-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+41        android:networkSecurityConfig="@xml/network_sec_config" >
+41-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:109-164
+42        <activity
+42-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:5-12:16
+43            android:name="com.unity3d.player.UnityPlayerActivity"
+43-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:80-133
+44            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+44-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:238-339
+45            android:excludeFromRecents="true"
+45-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:134-167
+46            android:hardwareAccelerated="false"
+46-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:375-410
+47            android:launchMode="singleTask"
+47-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:206-237
+48            android:resizeableActivity="false"
+48-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:340-374
+49            android:screenOrientation="landscape"
+49-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:168-205
+50            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+50-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:15-79
+51            <intent-filter>
+51-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+52-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+54-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+55                <category android:name="com.oculus.intent.category.VR" />
+55-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:8:9-66
+55-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:8:19-63
+56            </intent-filter>
+57
+58            <meta-data
+58-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:10:7-78
+59                android:name="android.notch_support"
+59-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:10:18-54
+60                android:value="true" />
+60-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:10:55-75
+61            <meta-data
+61-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:11:7-81
+62                android:name="com.oculus.vr.focusaware"
+62-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:11:18-57
+63                android:value="true" />
+63-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:11:58-78
+64        </activity>
+65
+66        <meta-data
+66-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:13:5-89
+67            android:name="unityplayer.SkipPermissionsDialog"
+67-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:13:16-64
+68            android:value="false" />
+68-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:13:65-86
+69        <meta-data
+69-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:5-97
+70            android:name="com.samsung.android.vr.application.mode"
+70-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:16-70
+71            android:value="vr_only" />
+71-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:14:71-94
+72        <meta-data
+72-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:5-69
+73            android:name="unity.splash-mode"
+73-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:16-48
+74            android:value="0" />
+74-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:49-66
+75        <meta-data
+75-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-74
+76            android:name="unity.splash-enable"
+76-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-50
+77            android:value="True" />
+77-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:51-71
+78        <meta-data
+78-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:5-84
+79            android:name="unity.allow-resizable-window"
+79-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:16-59
+80            android:value="False" />
+80-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:60-81
+81        <meta-data
+81-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:5-81
+82            android:name="notch.config"
+82-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:16-43
+83            android:value="portrait|landscape" />
+83-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:44-78
+84        <meta-data
+84-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:5-101
+85            android:name="unity.build-id"
+85-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:16-45
+86            android:value="ac26abad-208f-4e3c-9616-b7b93efb8c8a" />
+86-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:46-98
+87        <meta-data
+87-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:5-90
+88            android:name="com.unity.xr.oculus.LowOverheadMode"
+88-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:16-66
+89            android:value="true" />
+89-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:67-87
+90        <meta-data
+90-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:5-90
+91            android:name="com.oculus.supportedDevices"
+91-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:16-58
+92            android:value="quest|quest2" />
+92-->/Users/noopur/VR/rb-demo/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:59-87
+93    </application>
+94
+95</manifest>
